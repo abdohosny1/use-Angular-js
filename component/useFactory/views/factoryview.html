@@ -1,0 +1,18 @@
+
+
+<table class="table">
+    <th>Id</th>
+    <th>Name</th>
+    <th>Price</th>
+
+    <tr ng-repeat="item in products">
+
+        <td>{{item.id}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.price}}</td>
+
+
+    </tr>
+</table>
+
+<button class="btn btn-primary" ng-click="AddProduct()">Add Product</button>
